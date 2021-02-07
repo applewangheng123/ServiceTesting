@@ -32,8 +32,6 @@ class MemberTest {
         member.creat(map).then().body("errcode",equalTo(0));
 
     }
-    //89节课20分钟  @ValueSource(strings = {"huoz","wan","heng"})
-    //90节课1小时
     @ParameterizedTest
     @CsvFileSource(resources = "/data/member.csv")
 //    @ValueSource(strings = {"huoz","wan","heng"})

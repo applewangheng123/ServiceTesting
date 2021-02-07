@@ -51,16 +51,6 @@ public class WeworkConfig {
 
         }
 
-//        try {
-//            //读取文件
-//            //序列化的手段，把数据存储到一个文件，后面在读
-//            // System.out.println(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(WeworkConfig.getInstance()));
-//            System.out.println(objectMapper.writeValueAsString(getInstance()));
-//        } catch (JsonProcessingException e) {
-//            e.printStackTrace();
-//        }
-
-
     }
 
 }

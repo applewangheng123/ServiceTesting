@@ -32,14 +32,7 @@ public class Api {
         return  given().log().all();
     }
 
-//    public Response send(){
-//        requestSpecification=given().log().all();
-//        query.entrySet().forEach(entry->{
-//            requestSpecification.queryParam(entry.getKey(),entry.getValue());
-//        });
-//
-//        return  requestSpecification.when().request("get","baidu.com");
-//    }
+
 
     //88节课，55分钟,封装map的封装
     public static String template(String path,HashMap<String,Object>map){
@@ -274,10 +267,6 @@ public class Api {
             });
         }
 
-//        if(restful.body!=null){
-//            requestSpecification.body(restful.body);
-//        }
-
                 //todo 多环境支持，替换url，更新host的heard
         return requestSpecification.log().all()
                 .when().request(restful.method, restful.url)
@@ -286,67 +275,6 @@ public class Api {
 
     }
 
-
-
-    //90节课35分钟  todo  支持从yaml文件  Done
-//    public  Response templateFromYaml(String path, HashMap<String, Object> map) throws IOException {
-////         //todo  根据yaml生成接口定义并发送
-//        ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
-//        //读取文件
-//        Restful restful = objectMapper.readValue(WeworkConfig.class.getResourceAsStream(path), Restful.class);
-//
-//
-//        //获取map的值，并赋值
-//        if(restful.method.toLowerCase().contains(("get"))){
-//            map.entrySet().forEach(entry -> {
-//                restful.query.replace(entry.getKey(), entry.getValue().toString());
-//            });
-//        }
-//
-//        //post方法
-//        if (restful.method.toLowerCase().contains("post")) {
-//            if(map.containsKey("_body")){
-//                restful.body=map.get("_body").toString();
-//
-//            }
-//            if(map.containsKey("_file")){
-//                String filePath=map.get("_file").toString();
-//                map.remove("_file");
-//                restful.body=template(filePath,map);
-//            }
-//
-//        }
-//
-//        RequestSpecification requestSpecification=getDefaultRequestSpecification();
-//        //读取query的值,并获取赋值
-//        if(restful.query!=null){
-//            restful.query.entrySet().forEach(entry -> {
-//                requestSpecification.queryParam(entry.getKey(), entry.getValue());
-//            });
-//        }
-//
-//        if(restful.body!=null){
-//            requestSpecification.body(restful.body);
-//        }
-//
-//        //todo 多环境支持，替换url，更新host的heard
-//        return requestSpecification.log().all()
-//                .when().request(restful.method, restful.url)
-//                .then().log().all().extract().response();
-//        //发送请求
-//
-////            if (restful.method.toLowerCase().contains("get")) {
-////                return requestSpecification.log().all()
-////                        .when().request(restful.method, restful.url)
-////                        .then().log().all().extract().response();
-////            }else {
-////                return requestSpecification.log().all().body(restful.body)
-////                        .when().request(restful.method, restful.url)
-////                        .then().log().all().extract().response();
-////            }
-//
-//
-//    }
 
 
     //90 todo  支持从wsdl  soap文件

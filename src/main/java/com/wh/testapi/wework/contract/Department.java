@@ -13,19 +13,6 @@ public class Department extends Contact {
 
     //获取部门列表 get请求
     public Response list(String id) {
-//        Response response= RestAssured.given().param("access_token", Wework.getToken())
-//                .param("id",id)
-//                .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/list")
-//                .then().log().all().statusCode(200).extract().response();
-//        return  response;
-
-
-        //87课，58分钟继承contact类
-//        Response response= requestSpecification
-//                .param("id",id)
-//                .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/list").then().log().all().extract().response();
-//                 reset();
-//        return response;
 
         //99节课 1小时38分钟
         HashMap<String, Object> map = new HashMap<>();
@@ -87,26 +74,11 @@ public class Department extends Contact {
         map.put("_file", "/data/create.json");
         map.put("$.name", name);
         map.put("$.parentid", parentId);
-        //读数据模板
-        // hashMap.put("_file","/data/create.json")等价后面的2行
-//        String mbody=template("/data/create.json",hashMap);
-//        hashMap.put("_body",mbody);
         return getResponseFromYaml("/api/create.yaml", map);
     }
 
     //88节课39分钟,使用这种方式,create.json的数据可以改成null,传多个参数
     public Response creat(HashMap<String, Object> map) {
-
-//        DocumentContext documentContext = JsonPath.parse(this.getClass().getResourceAsStream("/data/create.json"));
-//        map.entrySet().forEach(entry -> {
-//            documentContext.set(entry.getKey(), entry.getValue());
-//        });
-//
-//        return getDefaultRequestSpecification()
-//                .body(documentContext.jsonString())
-//                .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/create")
-//                .then().extract().response();
-
 
         //101节课58分钟
         map.put("_file", "/data/create.json");
@@ -117,11 +89,6 @@ public class Department extends Contact {
 
     //删除部门
     public Response delete(String id) {
-//        return getDefaultRequestSpecification()
-//                .queryParam("id", id)
-//                .when().post("https://qyapi.weixin.qq.com/cgi-bin/departm；ent/delete")
-//                .then().extract().response();
-
         //102节课 5分钟
         HashMap<String, Object> map = new HashMap<>();
         map.put("id", id);
@@ -133,25 +100,6 @@ public class Department extends Contact {
 
     //更新部门
     public Response update(String id, String name) {
-//        String mbody= JsonPath.parse(this.getClass()
-//                .getResourceAsStream("/data/update.json"))
-//                .set("$.name",name)
-//                .set("$.id",id).jsonString();
-//
-//        return RestAssured.given().log().all().queryParam("access_token",Wework.getToken())
-//                .body(mbody)
-//                .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/update")
-//                .then().log().all().statusCode(200).extract().response();
-
-        //88节课 5分钟
-//        String mbody = JsonPath.parse(this.getClass()
-//                .getResourceAsStream("/data/update.json"))
-//                .set("$.name", name)
-//                .set("$.id", id).jsonString();
-//        return getDefaultRequestSpecification()
-//                .body(mbody)
-//                .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/update")
-//                .then().extract().response();
 
 
         //102节课4分钟
