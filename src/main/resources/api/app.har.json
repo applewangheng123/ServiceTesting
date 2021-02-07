@@ -1,0 +1,590 @@
+
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "",
+                "scriptId": "538",
+                "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/js/3rd/sentry/_$$_bundle$da345a81.js,vue$927909f1.js",
+                "lineNumber": 16,
+                "columnNumber": 53800
+              },
+              {
+                "functionName": "",
+                "scriptId": "538",
+                "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/js/3rd/sentry/_$$_bundle$da345a81.js,vue$927909f1.js",
+                "lineNumber": 16,
+                "columnNumber": 16368
+              },
+              {
+                "functionName": "eval",
+                "scriptId": "627",
+                "url": "",
+                "lineNumber": 7,
+                "columnNumber": 4320
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "627",
+                "url": "",
+                "lineNumber": 7,
+                "columnNumber": 2530
+              },
+              {
+                "functionName": "e.exports",
+                "scriptId": "627",
+                "url": "",
+                "lineNumber": 7,
+                "columnNumber": 8070
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "c.request",
+                  "scriptId": "627",
+                  "url": "",
+                  "lineNumber": 7,
+                  "columnNumber": 765
+                },
+                {
+                  "functionName": "eval",
+                  "scriptId": "627",
+                  "url": "",
+                  "lineNumber": 0,
+                  "columnNumber": 2584
+                },
+                {
+                  "functionName": "eval",
+                  "scriptId": "628",
+                  "url": "",
+                  "lineNumber": 0,
+                  "columnNumber": 2446
+                },
+                {
+                  "functionName": "w",
+                  "scriptId": "540",
+                  "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                  "lineNumber": 0,
+                  "columnNumber": 98557
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "540",
+                  "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                  "lineNumber": 0,
+                  "columnNumber": 98345
+                },
+                {
+                  "functionName": "O.forEach.t.<computed>",
+                  "scriptId": "540",
+                  "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                  "lineNumber": 0,
+                  "columnNumber": 98737
+                },
+                {
+                  "functionName": "l",
+                  "scriptId": "628",
+                  "url": "",
+                  "lineNumber": 0,
+                  "columnNumber": 1195
+                },
+                {
+                  "functionName": "i",
+                  "scriptId": "628",
+                  "url": "",
+                  "lineNumber": 0,
+                  "columnNumber": 1398
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "l",
+                    "scriptId": "628",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 1266
+                  },
+                  {
+                    "functionName": "i",
+                    "scriptId": "628",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 1398
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "628",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 1457
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "628",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 1338
+                  },
+                  {
+                    "functionName": "v",
+                    "scriptId": "628",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 2188
+                  },
+                  {
+                    "functionName": "i.default.postJSON",
+                    "scriptId": "628",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 3218
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "676",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 1538
+                  },
+                  {
+                    "functionName": "w",
+                    "scriptId": "540",
+                    "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                    "lineNumber": 0,
+                    "columnNumber": 98557
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "540",
+                    "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                    "lineNumber": 0,
+                    "columnNumber": 98345
+                  },
+                  {
+                    "functionName": "O.forEach.t.<computed>",
+                    "scriptId": "540",
+                    "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                    "lineNumber": 0,
+                    "columnNumber": 98737
+                  },
+                  {
+                    "functionName": "o",
+                    "scriptId": "676",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 493
+                  },
+                  {
+                    "functionName": "u",
+                    "scriptId": "676",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 696
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "676",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 755
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "676",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 636
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "676",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 1907
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "678",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 11270
+                  },
+                  {
+                    "functionName": "w",
+                    "scriptId": "540",
+                    "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                    "lineNumber": 0,
+                    "columnNumber": 98557
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "540",
+                    "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                    "lineNumber": 0,
+                    "columnNumber": 98345
+                  },
+                  {
+                    "functionName": "O.forEach.t.<computed>",
+                    "scriptId": "540",
+                    "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/_$$_js/3rd/babel-polyfill$fe30eb34.js,js/modules/jquery/jquery/1.11.3/jquery.min$8bd37c69.js,comm/3rd/mail.seajs/sea$7e17d8c1.js,js/developer/raw/seajs.config$b1238951.js",
+                    "lineNumber": 0,
+                    "columnNumber": 98737
+                  },
+                  {
+                    "functionName": "p",
+                    "scriptId": "678",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 6384
+                  },
+                  {
+                    "functionName": "o",
+                    "scriptId": "678",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 6587
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "678",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 6646
+                  },
+                  {
+                    "functionName": "eval",
+                    "scriptId": "678",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 6527
+                  },
+                  {
+                    "functionName": "submitInvoke",
+                    "scriptId": "678",
+                    "url": "",
+                    "lineNumber": 0,
+                    "columnNumber": 11354
+                  },
+                  {
+                    "functionName": "Ht",
+                    "scriptId": "617",
+                    "url": "",
+                    "lineNumber": 6,
+                    "columnNumber": 11375
+                  },
+                  {
+                    "functionName": "n",
+                    "scriptId": "617",
+                    "url": "",
+                    "lineNumber": 6,
+                    "columnNumber": 13126
+                  },
+                  {
+                    "functionName": "i._wrapper",
+                    "scriptId": "617",
+                    "url": "",
+                    "lineNumber": 6,
+                    "columnNumber": 44387
+                  },
+                  {
+                    "functionName": "o",
+                    "scriptId": "538",
+                    "url": "https://wwcdn.weixin.qq.com/node/wwopen/wwopenmng/js/3rd/sentry/_$$_bundle$da345a81.js,vue$927909f1.js",
+                    "lineNumber": 16,
+                    "columnNumber": 48658
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "897329",
+        "request": {
+          "method": "POST",
+          "url": "https://open.work.weixin.qq.com/wwopen/devetool/interface/invoke?lang=zh_CN&ajax=1&f=json&random=826542",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":authority",
+              "value": "open.work.weixin.qq.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":path",
+              "value": "/wwopen/devetool/interface/invoke?lang=zh_CN&ajax=1&f=json&random=826542"
+            },
+            {
+              "name": "content-length",
+              "value": "511"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/plain, */*"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://open.work.weixin.qq.com"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "referer",
+              "value": "https://open.work.weixin.qq.com/wwopen/devtool/interface?doc_id=10087"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9"
+            },
+            {
+              "name": "cookie",
+              "value": "tvfe_boss_uuid=bcf302c4ea0b4d64; pgv_pvid=4441181760; pac_uid=0_504ecde623693; pgv_pvi=5273291776; ptui_loginuin=247207953; RK=MGC111o3Ej; ptcz=c59252e4e557399c513572ac0fc4d43d407500e61ed6608d6283a898c3c3cbbf; pt_sms_phone=183******70; wwrtx.i18n_lan=zh; wwrtx.c_gdpr=0; _ga=GA1.2.493613969.1609396032; uin=o0247207953; skey=@AHT32bEDO; wwrtx.ref=direct; wwrtx.refid=31778916992776567; ww_rtkey=3723n38"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "lang",
+              "value": "zh_CN"
+            },
+            {
+              "name": "ajax",
+              "value": "1"
+            },
+            {
+              "name": "f",
+              "value": "json"
+            },
+            {
+              "name": "random",
+              "value": "826542"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "tvfe_boss_uuid",
+              "value": "bcf302c4ea0b4d64",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pgv_pvid",
+              "value": "4441181760",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pac_uid",
+              "value": "0_504ecde623693",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pgv_pvi",
+              "value": "5273291776",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ptui_loginuin",
+              "value": "247207953",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "RK",
+              "value": "MGC111o3Ej",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ptcz",
+              "value": "c59252e4e557399c513572ac0fc4d43d407500e61ed6608d6283a898c3c3cbbf",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "pt_sms_phone",
+              "value": "183******70",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "wwrtx.i18n_lan",
+              "value": "zh",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "wwrtx.c_gdpr",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.2.493613969.1609396032",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "uin",
+              "value": "o0247207953",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "skey",
+              "value": "@AHT32bEDO",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "wwrtx.ref",
+              "value": "direct",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "wwrtx.refid",
+              "value": "31778916992776567",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ww_rtkey",
+              "value": "3723n38",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 511,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"name\":\"获取指定的应用详情\",\"url\":\"https://qyapi.weixin.qq.com/cgi-bin/agent/get\",\"method\":\"GET\",\"parentId\":\"apps\",\"arguments\":[{\"name\":\"access_token\",\"type\":\"area\",\"value\":\"Wa2OAYFQxOGgKD7FrdfSv4PDFo58Ovga_3PdzRXvJsAspDzSm8R4IeZ3cqUM50or-kz4x8NUR45HSM3EDcet0DFj-xBhhQvYv-pCyp7fLzD7tS8ITHbui809iP_QTZ218YZJxRR1hDmFtP5IeOq2739qNBsjNGZ8pw0WZBq9MxWIqeYslpXegE-1SDTjBxsTk3bV2mtv9Lz8c0wQJcf69A\",\"desc\":\"调用接口凭证\"},{\"name\":\"agentid\",\"type\":\"text\",\"value\":\"100000322\",\"desc\":\"应用id\"}],\"value\":0}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "date",
+              "value": "Thu, 04 Feb 2021 02:46:08 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "content-length",
+              "value": "626"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"272-dTMuhmvrliqavX8YZXgqM0jkaJE\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 626,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 740,
+          "_error": null
+        },
+        "serverIPAddress": "113.96.237.15",
+        "startedDateTime": "2021-02-04T02:46:08.886Z",
+        "time": 169.43800002608077,
+        "timings": {
+          "blocked": 2.965000046122819,
+          "dns": 1.634,
+          "ssl": 34.824,
+          "connect": 69.559,
+          "send": 1.1299999999999955,
+          "wait": 92.23799997296184,
+          "receive": 1.9120000069960952,
+          "_blocked_queueing": 0.8240000461228192
+        }
+      }
+    ]
+  }
+}

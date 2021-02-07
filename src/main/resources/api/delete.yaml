@@ -1,0 +1,4 @@
+method: get
+url: https://qyapi.weixin.qq.com/cgi-bin/departm；ent/delete
+query:
+ id: "1"
