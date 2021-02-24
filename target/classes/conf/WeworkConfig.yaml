@@ -3,10 +3,9 @@ agentId: "1000003"
 secret: "N3v8m00XaeO_zn7jVEt6uU337SGBsWSY7989fPJ5dy4"
 corpId: "ww45b859895b3a9f7b"
 contactSecret: "Lsdg-5kJGjRWm_HkhixRKoHWH0zMdHtLnK86MS8pShw"
-
 current: test
-env:
-  dev:
-    "qyapi.weixin.qq.com":"qyapi.weixin.qq.com"
-  test:
-    "qyapi.weixin.qq.com":"10.20.11.86"
+#env:
+#  dev:
+#    "qyapi.weixin.qq.com":"qyapi.weixin.qq.com"
+#  test:
+#    "qyapi.weixin.qq.com":"140.207.127.79"

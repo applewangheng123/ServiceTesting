@@ -26,7 +26,7 @@ class ApiTest {
     }
 
     @Test
-    void tem(){
+    void resource(){
         URL url= getClass().getResource("/Api/app.har.json");
         System.out.println(url.getFile());
         System.out.println(url.getPath());
@@ -37,7 +37,7 @@ class ApiTest {
     void getApiFromHar() {
         Api api=new Api();
         System.out.println(api.getApiFromHar("/api/app.har.json",".*lang=zh_CN.*").url);
-        System.out.println(api.getApiFromHar("/api/app.har.json","ttwwww").url);
+        //System.out.println(api.getApiFromHar("/api/app.har.json","ttwwww").url);
 
     }
 
@@ -47,4 +47,5 @@ class ApiTest {
         Api api=new Api();
         api.getResponseFromHar("/api/app.har.json",".*lang=zh_CN.*",null);
     }
+
 }

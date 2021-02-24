@@ -26,11 +26,10 @@ public class WeworkConfig {
     public  static WeworkConfig getInstance(){
         if(weworkConfig==null){
             //最开始
-           // weworkConfig=new WeworkConfig();
+            // weworkConfig=new WeworkConfig();
             //99节课56分钟
             weworkConfig=load("/conf/WeworkConfig.yaml");
-            System.out.println(weworkConfig);
-            System.out.println(weworkConfig.agentId);
+            System.out.println("打印weworkConfig"+weworkConfig);
         }
         return  weworkConfig;
 
@@ -41,8 +40,7 @@ public class WeworkConfig {
     public static  WeworkConfig load(String path) {
 //        //todo  从yalm或者json读取数据
         ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
-
-            //读取文件
+        //读取文件
         try {
             return objectMapper.readValue(WeworkConfig.class.getResourceAsStream(path),WeworkConfig.class);
         } catch (IOException e) {

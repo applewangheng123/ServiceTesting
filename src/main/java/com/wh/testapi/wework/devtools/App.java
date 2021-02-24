@@ -21,7 +21,8 @@ public class App extends Api {
     }
 
     public Response listApp(){
-        return getResponseFromHar("/api/app.har.json",".*lang=zh_CN.*",null);
+        return null;
+       // return getResponseFromHar("/api/app.har.json",".*lang=zh_CN.*",null);
 
     }
 

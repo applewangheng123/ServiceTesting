@@ -7,6 +7,7 @@ import java.util.HashMap;
 public class Member extends Contact {
     public Response creat(HashMap<String,Object> map) {
 
+
         String body = template("/data/member.json", map);
         return getDefaultRequestSpecification()
                 .body(body)

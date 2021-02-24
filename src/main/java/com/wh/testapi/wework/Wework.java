@@ -19,6 +19,7 @@ public class Wework {
     }
 
 
+
     //使用单例存储token?
     public static String  getToken() {
         //todo:支持多种类型的token

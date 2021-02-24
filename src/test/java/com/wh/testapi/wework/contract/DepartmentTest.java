@@ -1,17 +1,11 @@
 package com.wh.testapi.wework.contract;
-
-import io.restassured.response.Response;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+import static org.hamcrest.Matchers.equalTo;
 
 import java.util.HashMap;
-
-import static org.hamcrest.Matchers.equalTo;
-import static org.junit.jupiter.api.Assertions.*;
 
 class DepartmentTest {
 
